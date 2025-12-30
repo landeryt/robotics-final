@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="kitchen">
+    <static>true</static>
+
+    <link name="qr_link">
+
+      <!-- Position: x y z -->
+      <pose>2.6 0.3 1.1 0 0 0</pose>
+
+      <visual name="qr_visual">
+        <geometry>
+          <plane>
+            <size>0.4 0.4</size>
+          </plane>
+        </geometry>
+
+        <material>
+          <script>
+            <uri>model://kitchen/materials/textures</uri>
+            <name>KitchenQR</name>
+          </script>
+        </material>
+      </visual>
+
+      <collision name="qr_collision">
+        <geometry>
+          <plane>
+            <size>0.4 0.4</size>
+          </plane>
+        </geometry>
+      </collision>
+
+    </link>
+  </model>
+</sdf>
+

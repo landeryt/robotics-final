@@ -1,0 +1,6 @@
+<launch>
+  <include file="$(find vaccum)/launch/sim.launch"/>
+  <include file="$(find vaccum)/launch/nav.launch"/>
+  <include file="$(find vaccum)/launch/task_manager.launch"/>
+</launch>
+

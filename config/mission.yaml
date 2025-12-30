@@ -1,0 +1,63 @@
+rooms:
+  - LIVING_ROOM
+  - BEDROOM_SOUTH_1
+  - BEDROOM_SOUTH_2
+  - HALLWAY
+  - KITCHEN
+  - BEDROOM_MID
+  - BEDROOM_NORTH
+
+LIVING_ROOM:
+  entry_goal: {x: -4.7286, y: 3.5065, yaw: 0.0}
+  cleaning_goals:
+    - {x: -1.1058, y: 1.0039, yaw: 0.0}
+    - {x: -1.0476, y: 4.0157, yaw: 0.0}
+    - {x: -3.1718, y: 3.9866, yaw: 0.0}
+  qr_expected: "ROOM=LIVING_ROOM"
+
+BEDROOM_SOUTH_1:
+  entry_goal: {x: -5.2961, y: 3.4628, yaw: 0.0}
+  cleaning_goals:
+    - {x: -6.0090, y: 3.9575, yaw: 0.0}
+    - {x: -6.7802, y: 3.4192, yaw: 0.0}
+    - {x: -6.2564, y: 1.8769, yaw: 0.0}
+  qr_expected: "ROOM=BEDROOM_SOUTH_1"
+
+BEDROOM_SOUTH_2:
+  entry_goal: {x: -6.2564, y: 0.7857, yaw: 0.0}
+  cleaning_goals:
+    - {x: -7.1293, y: -1.5568, yaw: 0.0}
+    - {x: -6.3000, y: -3.0263, yaw: 0.0}
+    - {x: -5.9654, y: -0.3928, yaw: 0.0}
+  qr_expected: "ROOM=BEDROOM_SOUTH_2"
+
+HALLWAY:
+  entry_goal: {x: 0.0582, y: 0.3201, yaw: 0.0}
+  cleaning_goals: []
+  qr_expected: "ROOM=HALLWAY"
+
+
+KITCHEN:
+  entry_goal: {x: 2.5898, y: 0.3201, yaw: 0.0}
+  cleaning_goals:
+    - {x: 6.2855, y: 0.6693, yaw: 0.0}
+    - {x: 3.2446, y: 4.0448, yaw: 0.0}
+  qr_expected: "ROOM=KITCHEN"
+
+BEDROOM_MID:
+  entry_goal: {x: 2.2261, y: 4.5395, yaw: 0.0}
+  cleaning_goals:
+    - {x: 0.5674, y: 3.9721, yaw: 0.0}
+    - {x: 0.6256, y: 2.0515, yaw: 0.0}
+    - {x: 1.7314, y: 2.6480, yaw: 0.0}
+  qr_expected: "ROOM=BEDROOM_MID"
+
+BEDROOM_NORTH:
+  entry_goal: {x: 6.0236, y: -0.8439, yaw: 0.0}
+  cleaning_goals:
+    - {x: 6.5765, y: -1.4259, yaw: 0.0}
+    - {x: 6.7365, y: -4.6704, yaw: 0.0}
+    - {x: 5.0633, y: -4.1903, yaw: 0.0}
+    - {x: 5.2088, y: -1.4259, yaw: 0.0}
+  qr_expected: "ROOM=BEDROOM_NORTH"
+

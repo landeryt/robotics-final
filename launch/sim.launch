@@ -1,0 +1,6 @@
+<launch>
+  <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_house.launch">
+    <arg name="world_name" value="$(find vaccum)/worlds/house_with_qr.world"/>
+  </include>
+</launch>
+

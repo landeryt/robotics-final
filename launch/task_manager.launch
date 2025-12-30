@@ -1,0 +1,10 @@
+<launch>
+  <node pkg="vaccum"
+        type="task_manager.py"
+        name="task_manager"
+        output="screen">
+    <param name="mission_file"
+           value="$(find vaccum)/config/mission.yaml"/>
+  </node>
+</launch>
+

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>vaccum</name>
+  <version>0.0.1</version>
+  <description>
+    Autonomous vacuum cleaning robot with room-based navigation and QR verification
+    using TurtleBot3, ROS Noetic, and Gazebo.
+  </description>
+
+  <maintainer email="student@todo.todo">Duc Huan Ngo</maintainer>
+  <license>MIT</license>
+
+  <!-- Build tool -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Runtime dependencies -->
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>move_base_msgs</depend>
+  <depend>actionlib</depend>
+  <depend>tf</depend>
+  <depend>cv_bridge</depend>
+  <depend>image_transport</depend>
+
+  <!-- TurtleBot3 related -->
+  <depend>turtlebot3_gazebo</depend>
+  <depend>turtlebot3_navigation</depend>
+  <depend>turtlebot3_slam</depend>
+
+  <!-- Optional but useful -->
+  <exec_depend>map_server</exec_depend>
+  <exec_depend>amcl</exec_depend>
+
+  <export>
+  </export>
+</package>
+

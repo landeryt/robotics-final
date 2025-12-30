@@ -1,0 +1,9 @@
+<launch>
+
+  <!-- TurtleBot3 navigation stack (includes map_server, AMCL, move_base, TF) -->
+  <include file="$(find turtlebot3_navigation)/launch/turtlebot3_navigation.launch">
+    <arg name="map_file" value="$(find vaccum)/maps/house_map.yaml"/>
+  </include>
+
+</launch>
+
