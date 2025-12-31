@@ -6,6 +6,8 @@
 ## Terminal 2
 ```roslaunch robotics-final nav.launch```
 
+Then place the robot around the right side of the table in the living room.
+
 ## Terminal 3
 ```roslaunch robotics-final task_manager.launch```
 
@@ -16,4 +18,5 @@ Finally, you need to install turtlebot3 packages from ```sudo apt install``` ins
 
 ## Brief description
 The project controls a vacuum cleaning robot around the house according to the assigned nodes and rooms. Unfortunately, QR code verificaition was not yet applied, but the rest should work perfectly.
+
 
